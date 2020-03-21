@@ -1,3 +1,8 @@
+# To run server: 
+* nvm use
+* To start server ```npm start``` and then goto localhost:8000
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
