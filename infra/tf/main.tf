@@ -4,7 +4,7 @@ provider "aws" {
 }
  
 resource "aws_route53_record" "root" {
-    zone_id = var.coreremoter_zone_id
+    zone_id = var.coremoter_zone_id
     name = "coremoter.com"
     type = "A"
     ttl = "300"
@@ -16,7 +16,7 @@ resource "aws_route53_record" "root" {
 }
 
 resource "aws_route53_record" "www" {
-    zone_id = var.coreremoter_zone_id
+    zone_id = var.coremoter_zone_id
     name = "www.coremoter.com"
     type = "A"
     ttl = "300"
