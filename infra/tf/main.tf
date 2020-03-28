@@ -8,5 +8,5 @@ resource "aws_route53_record" "www" {
     name = "www.coremoter.com"
     type = "CNAME"
     ttl = "300"
-    records = "fiq.github.io"
+    records = ["fiq.github.io"]
 }
