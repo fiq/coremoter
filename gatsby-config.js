@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/coremoter",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Coremoter`,
+    description: `We're setting up a platform to support, inform and engage people in their transition to a more remote world - forced by Covid-19`,
     author: `@gatsbyjs`,
   },
   plugins: [
