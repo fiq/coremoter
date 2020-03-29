@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/coremoter",
   siteMetadata: {
-    title: `Coremoter`,
+    title: `Co-Remoter`,
     description: `We're setting up a platform to support, inform and engage people in their transition to a more remote world - forced by Covid-19`,
     author: `@gatsbyjs`,
   },
