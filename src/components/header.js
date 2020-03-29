@@ -6,6 +6,7 @@ import styles from "./header.module.css"
 import { AppBar, Toolbar, IconButton, Typography, Button  } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 
+// FIXME: Turn into an ES6 class
 const Header = ({ siteTitle }) => (
     <header className={styles.header}>
     <AppBar position="static">
